@@ -4,7 +4,7 @@ SUB_OBJ = sub_module.o
 
 OBJ= ${OBJ1} ${OBJ2} ${SUB_OBJ}
 RESULT = result.out
-cc = g++
+CC = g++
 
 VPATH = ./ : subdir ## 增加文件链接范围，多个范围之间使用：分隔，按照定义的顺序寻找，直到找到为止；
 
@@ -14,15 +14,15 @@ endef
 
 all : ${OBJ}
 	@echo "complie the final output result.out file" #这行命令执行时候，不会输出具体命令过程，但是会正常执行；可以使用-s 实现全面禁止执行命令输出
-	${cc} -o $(RESULT) $(OBJ)
+	${CC} -o $(RESULT) $(OBJ)
 
 #####优化1： 静态模式
 ${OBJ1} : %.o : %.cpp %.h
-	${cc} -c $< -o $@          ## $<:表示第一个依赖文件，$@:表示目标集
+	${CC} -c $< -o $@          ## $<:表示第一个依赖文件，$@:表示目标集
 #${OBJ2} : %.o : %.cpp 
 ${filter %.o, ${OBJ2}} : %.o : %.cpp  ##使用filter 进行过滤
 	${create_file}
-	${cc} -c $< -o $@
+	${CC} -c $< -o $@
 
 ${SUB_OBJ} : subsys
 
@@ -48,3 +48,12 @@ subsys :
 clean: 
 	-rm -f ${RESULT} ${OBJ}
 	make clean -C subdir
+
+.PHONY : var
+#模式变量;
+#%.o : CC = XXXXG
+#
+# 目标变量
+var : CC = GXXX
+var : ${OBJ1} 
+	echo ${CC}
