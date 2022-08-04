@@ -13,6 +13,7 @@ ${OBJ1} : %.o : %.cpp %.h
 	${cc} -c $< -o $@          ## $<:表示第一个依赖文件，$@:表示目标集
 #${OBJ2} : %.o : %.cpp 
 ${filter %.o, ${OBJ2}} : %.o : %.cpp  ##使用filter 进行过滤
+	touch x.txt
 	${cc} -c $< -o $@
 
 
@@ -27,17 +28,13 @@ execmd:
 	-no_cmd   # 也可以通过 -i(--ignore-errors) 参数忽略所有的错误
 	@echo "contiue next cmd"
 
-
-
-
-
-
-
-
-
-
+.PHONY : subsys
+subsys :
+	#cd subdir &&  make #与下行命令等效 
+	make -C subdir
 
 
 .PHONY : clean 
 clean: 
 	-rm -f ${RESULT} ${OBJ}
+	make clean -C subdir
