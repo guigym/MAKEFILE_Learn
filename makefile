@@ -1,8 +1,12 @@
 OBJ1 = module1.o module2.o
 OBJ2 = main.o  x.txt
-OBJ= ${OBJ1} ${OBJ2}
+SUB_OBJ = sub_module.o
+
+OBJ= ${OBJ1} ${OBJ2} ${SUB_OBJ}
 RESULT = result.out
 cc = g++
+
+VPATH = ./ : subdir ## 增加文件链接范围，多个范围之间使用：分隔，按照定义的顺序寻找，直到找到为止；
 
 all : ${OBJ}
 	@echo "complie the final output result.out file" #这行命令执行时候，不会输出具体命令过程，但是会正常执行；可以使用-s 实现全面禁止执行命令输出
@@ -15,6 +19,8 @@ ${OBJ1} : %.o : %.cpp %.h
 ${filter %.o, ${OBJ2}} : %.o : %.cpp  ##使用filter 进行过滤
 	touch x.txt
 	${cc} -c $< -o $@
+
+${SUB_OBJ} : subsys
 
 
 .PHONY : execmd
