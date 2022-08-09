@@ -5,6 +5,7 @@
 	> Created Time: Fri 29 Jul 2022 01:49:31 PM CST
  ************************************************************************/
 #include<iostream>
+#include "module2.h"
 using namespace std;
 
 void func1_module2(int b) {
