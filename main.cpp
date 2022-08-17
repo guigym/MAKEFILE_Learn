@@ -7,7 +7,7 @@
 #include<iostream>
 #include "module1.h"
 #include "module2.h"
-#include "subdir/sub_module.h"
+#include "sub_module.h"
 
 using namespace std;
 
