@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/module1.h
+
+../include/module2.h
+
+../include/sub_module.h
+iostream
+-
+
+/home/guigym/personal/cmake/cmake_learn/src/main.cpp
+iostream
+-
+module1.h
+/home/guigym/personal/cmake/cmake_learn/src/module1.h
+module2.h
+/home/guigym/personal/cmake/cmake_learn/src/module2.h
+sub_module.h
+/home/guigym/personal/cmake/cmake_learn/src/sub_module.h
+
+/home/guigym/personal/cmake/cmake_learn/src/module1.cpp
+iostream
+-
+module1.h
+/home/guigym/personal/cmake/cmake_learn/src/module1.h
+
+/home/guigym/personal/cmake/cmake_learn/src/module2.cpp
+iostream
+-
+module2.h
+/home/guigym/personal/cmake/cmake_learn/src/module2.h
+
+/home/guigym/personal/cmake/cmake_learn/src/sub_module.cpp
+sub_module.h
+/home/guigym/personal/cmake/cmake_learn/src/sub_module.h
+
