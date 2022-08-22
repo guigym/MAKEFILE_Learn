@@ -1,3 +1,6 @@
 /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/rebuild_cache.dir
 /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/edit_cache.dir
 /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/CMAKE_RESULT.dir
+/home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/edit_cache.dir
+/home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/rebuild_cache.dir
+/home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/my_lib.dir

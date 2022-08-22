@@ -12,6 +12,3 @@ CMakeFiles/CMAKE_RESULT.dir/src/module1.cpp.o
 CMakeFiles/CMAKE_RESULT.dir/src/module2.cpp.o
  ../include/module2.h
  /home/guigym/personal/cmake/cmake_learn/src/module2.cpp
-CMakeFiles/CMAKE_RESULT.dir/src/sub_module.cpp.o
- ../include/sub_module.h
- /home/guigym/personal/cmake/cmake_learn/src/sub_module.cpp

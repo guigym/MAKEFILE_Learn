@@ -123,6 +123,19 @@ CMAKE_RESULT/fast:
 	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/build
 .PHONY : CMAKE_RESULT/fast
 
+#=============================================================================
+# Target rules for targets named my_lib
+
+# Build rule for target.
+my_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_lib
+.PHONY : my_lib
+
+# fast build rule for target.
+my_lib/fast:
+	$(MAKE) -f my_lib/CMakeFiles/my_lib.dir/build.make my_lib/CMakeFiles/my_lib.dir/build
+.PHONY : my_lib/fast
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -204,33 +217,6 @@ src/module2.cpp.s:
 	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/module2.cpp.s
 .PHONY : src/module2.cpp.s
 
-src/sub_module.o: src/sub_module.cpp.o
-
-.PHONY : src/sub_module.o
-
-# target to build an object file
-src/sub_module.cpp.o:
-	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/sub_module.cpp.o
-.PHONY : src/sub_module.cpp.o
-
-src/sub_module.i: src/sub_module.cpp.i
-
-.PHONY : src/sub_module.i
-
-# target to preprocess a source file
-src/sub_module.cpp.i:
-	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/sub_module.cpp.i
-.PHONY : src/sub_module.cpp.i
-
-src/sub_module.s: src/sub_module.cpp.s
-
-.PHONY : src/sub_module.s
-
-# target to generate assembly for a file
-src/sub_module.cpp.s:
-	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/sub_module.cpp.s
-.PHONY : src/sub_module.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +226,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CMAKE_RESULT"
+	@echo "... my_lib"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -249,9 +236,6 @@ help:
 	@echo "... src/module2.o"
 	@echo "... src/module2.i"
 	@echo "... src/module2.s"
-	@echo "... src/sub_module.o"
-	@echo "... src/sub_module.i"
-	@echo "... src/sub_module.s"
 .PHONY : help
 
 

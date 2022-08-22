@@ -36,7 +36,3 @@ iostream
 module2.h
 /home/guigym/personal/cmake/cmake_learn/src/module2.h
 
-/home/guigym/personal/cmake/cmake_learn/src/sub_module.cpp
-sub_module.h
-/home/guigym/personal/cmake/cmake_learn/src/sub_module.h
-

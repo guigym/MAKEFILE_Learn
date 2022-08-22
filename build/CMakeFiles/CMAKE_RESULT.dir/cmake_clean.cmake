@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o"
   "CMakeFiles/CMAKE_RESULT.dir/src/module1.cpp.o"
   "CMakeFiles/CMAKE_RESULT.dir/src/module2.cpp.o"
-  "CMakeFiles/CMAKE_RESULT.dir/src/sub_module.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
