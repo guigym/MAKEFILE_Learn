@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMAKE_RESULT"
   "CMAKE_RESULT.pdb"
   "CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o"
-  "CMakeFiles/CMAKE_RESULT.dir/src/module1.cpp.o"
   "CMakeFiles/CMAKE_RESULT.dir/src/module2.cpp.o"
 )
 

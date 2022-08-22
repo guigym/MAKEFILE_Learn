@@ -94,12 +94,12 @@ my_lib/clean: my_lib/CMakeFiles/my_lib.dir/clean
 CMakeFiles/CMAKE_RESULT.dir/all: my_lib/CMakeFiles/my_lib.dir/all
 	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/depend
 	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles --progress-num=1,2,3,4 "Built target CMAKE_RESULT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles --progress-num=1,2,3 "Built target CMAKE_RESULT"
 .PHONY : CMakeFiles/CMAKE_RESULT.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CMAKE_RESULT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CMAKE_RESULT.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles 0
 .PHONY : CMakeFiles/CMAKE_RESULT.dir/rule
@@ -121,7 +121,7 @@ CMakeFiles/CMAKE_RESULT.dir/clean:
 my_lib/CMakeFiles/my_lib.dir/all:
 	$(MAKE) -f my_lib/CMakeFiles/my_lib.dir/build.make my_lib/CMakeFiles/my_lib.dir/depend
 	$(MAKE) -f my_lib/CMakeFiles/my_lib.dir/build.make my_lib/CMakeFiles/my_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles --progress-num=5,6 "Built target my_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles --progress-num=4,5 "Built target my_lib"
 .PHONY : my_lib/CMakeFiles/my_lib.dir/all
 
 # Build rule for subdir invocation for target.

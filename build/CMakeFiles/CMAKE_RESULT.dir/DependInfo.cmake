@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/guigym/personal/cmake/cmake_learn/src/main.cpp" "/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o"
-  "/home/guigym/personal/cmake/cmake_learn/src/module1.cpp" "/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/CMAKE_RESULT.dir/src/module1.cpp.o"
   "/home/guigym/personal/cmake/cmake_learn/src/module2.cpp" "/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/CMAKE_RESULT.dir/src/module2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -13,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "../module1_lib"
   )
 
 # Targets to which this target links.

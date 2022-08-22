@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/guigym/personal/cmake/cmake_learn/include 
+CXX_INCLUDES = -I/home/guigym/personal/cmake/cmake_learn/include -I/home/guigym/personal/cmake/cmake_learn/module1_lib 
 

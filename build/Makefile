@@ -209,33 +209,6 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/module1.o: src/module1.cpp.o
-
-.PHONY : src/module1.o
-
-# target to build an object file
-src/module1.cpp.o:
-	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/module1.cpp.o
-.PHONY : src/module1.cpp.o
-
-src/module1.i: src/module1.cpp.i
-
-.PHONY : src/module1.i
-
-# target to preprocess a source file
-src/module1.cpp.i:
-	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/module1.cpp.i
-.PHONY : src/module1.cpp.i
-
-src/module1.s: src/module1.cpp.s
-
-.PHONY : src/module1.s
-
-# target to generate assembly for a file
-src/module1.cpp.s:
-	$(MAKE) -f CMakeFiles/CMAKE_RESULT.dir/build.make CMakeFiles/CMAKE_RESULT.dir/src/module1.cpp.s
-.PHONY : src/module1.cpp.s
-
 src/module2.o: src/module2.cpp.o
 
 .PHONY : src/module2.o
@@ -280,9 +253,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/module1.o"
-	@echo "... src/module1.i"
-	@echo "... src/module1.s"
 	@echo "... src/module2.o"
 	@echo "... src/module2.i"
 	@echo "... src/module2.s"
