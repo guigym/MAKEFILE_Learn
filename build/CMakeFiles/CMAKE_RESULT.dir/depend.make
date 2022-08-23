@@ -5,6 +5,7 @@ CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o: ../include/module2.h
 CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o: ../include/sub_module.h
 CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o: ../module1_lib/module1.h
 CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/CMAKE_RESULT.dir/src/main.cpp.o: projectConfig.h
 
 CMakeFiles/CMAKE_RESULT.dir/src/module2.cpp.o: ../include/module2.h
 CMakeFiles/CMAKE_RESULT.dir/src/module2.cpp.o: ../src/module2.cpp

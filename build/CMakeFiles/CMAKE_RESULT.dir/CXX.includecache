@@ -23,10 +23,14 @@ module2.h
 /home/guigym/personal/cmake/cmake_learn/src/module2.h
 sub_module.h
 /home/guigym/personal/cmake/cmake_learn/src/sub_module.h
+projectConfig.h
+/home/guigym/personal/cmake/cmake_learn/src/projectConfig.h
 
 /home/guigym/personal/cmake/cmake_learn/src/module2.cpp
 iostream
 -
 module2.h
 /home/guigym/personal/cmake/cmake_learn/src/module2.h
+
+projectConfig.h
 

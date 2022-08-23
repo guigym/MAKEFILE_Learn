@@ -8,10 +8,12 @@
 #include "module1.h"
 #include "module2.h"
 #include "sub_module.h"
+#include "projectConfig.h"
 
 using namespace std;
 
 int main() {
+   cout << "current rev is:" << PROJECT_VERSION_MAJOR << "." << PROJECT_VERSION_MINOR << endl;
    int a , b;
    cin >> a >> b;
 
