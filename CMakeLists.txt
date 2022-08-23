@@ -3,6 +3,9 @@ project(cmake_learn)
 
 set(OUT CMAKE_RESULT)
 
+set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
+set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+
 include_directories(include)
 add_subdirectory(my_lib)
 
@@ -11,6 +14,7 @@ aux_source_directory(src SOURCES)
 
 add_executable(${OUT} ${SOURCES})
 target_link_libraries(${OUT} my_lib)
+
 
 ##寻找并链接  外部链接库 与 头文件 位置
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/module1_lib)
