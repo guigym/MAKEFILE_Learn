@@ -1,0 +1,48 @@
+Start testing: Aug 23 22:12 CST
+----------------------------------------------------------
+1/2 Testing: TC_25
+1/2 Test: TC_25
+Command: "/home/guigym/personal/cmake/cmake_learn/build/CMAKE_RESULT" "25" "0"
+Directory: /home/guigym/personal/cmake/cmake_learn/build
+"TC_25" start time: Aug 23 22:12 CST
+Output:
+----------------------------------------------------------
+current rev is:1.0
+new line add
+25 in func1_module1
+0 <= 10,in func2_module2
+here is the sub_fun1 in /home/guigym/personal/cmake/cmake_learn/my_lib/sub_module.cpp line 10
+the square root of 25 is 5.000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[25 is 5]
+"TC_25" end time: Aug 23 22:12 CST
+"TC_25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: TC_9
+2/2 Test: TC_9
+Command: "/home/guigym/personal/cmake/cmake_learn/build/CMAKE_RESULT" "9" "0"
+Directory: /home/guigym/personal/cmake/cmake_learn/build
+"TC_9" start time: Aug 23 22:12 CST
+Output:
+----------------------------------------------------------
+current rev is:1.0
+new line add
+9 in func1_module1
+0 <= 10,in func2_module2
+here is the sub_fun1 in /home/guigym/personal/cmake/cmake_learn/my_lib/sub_module.cpp line 10
+the square root of 9 is 3.000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found. Regex=[9 is 5
+]
+"TC_9" end time: Aug 23 22:12 CST
+"TC_9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 23 22:12 CST

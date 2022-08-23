@@ -4,10 +4,12 @@
 /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/list_install_components.dir
 /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/rebuild_cache.dir
 /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/edit_cache.dir
+/home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/test.dir
 /home/guigym/personal/cmake/cmake_learn/build/CMakeFiles/CMAKE_RESULT.dir
 /home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/install/strip.dir
 /home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/install/local.dir
 /home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/edit_cache.dir
+/home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/test.dir
 /home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/install.dir
 /home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/list_install_components.dir
 /home/guigym/personal/cmake/cmake_learn/build/my_lib/CMakeFiles/rebuild_cache.dir

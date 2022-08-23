@@ -17,6 +17,8 @@ iostream
 /home/guigym/personal/cmake/cmake_learn/src/main.cpp
 iostream
 -
+cmath
+-
 module1.h
 /home/guigym/personal/cmake/cmake_learn/src/module1.h
 module2.h

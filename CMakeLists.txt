@@ -45,3 +45,20 @@ IF( LIBMODULE1_INCLUDE_DIR AND LIBMODULE1_LIBRARY ) # 如果找不到的话, 变
 ENDIF ( LIBMODULE1_INCLUDE_DIR AND LIBMODULE1_LIBRARY )
 
 
+#demon6: test case
+enable_testing()
+macro(do_test arg0 arg1 result)
+   add_test(TC_${arg0} CMAKE_RESULT ${arg0} ${arg1})
+   set_tests_properties(TC_${arg0} PROPERTIES PASS_REGULAR_EXPRESSION ${result})
+endmacro(do_test)
+
+do_test(25 0 "25 is 5")
+do_test(9 0 "9 is 5")
+
+# add_test(TC_Pass CMAKE_RESULT 25 0)
+# set_tests_properties(TC_Pass PROPERTIES PASS_REGULAR_EXPRESSION "25 is 5")
+#
+# add_test(TC_Fail CMAKE_RESULT 9 0)
+# set_tests_properties(TC_Fail PROPERTIES PASS_REGULAR_EXPRESSION "9 is 5")
+
+
